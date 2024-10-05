@@ -1,0 +1,262 @@
+body {
+  background-color: #130f40;
+  background-image: -webkit-linear-gradient(135deg, #130f40 0%, #000000 74%);
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+  color: white;
+  font-family: "Nunito", sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+
+/* navigasyon */
+
+.navigator {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigator h4 {
+  font-size: 21px;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+}
+
+.socialmedia {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding-top: 9px;
+
+}
+
+.socialmedia img {
+  background-color: rgb(68, 199, 181);
+  border-radius: 50%;
+  padding: 5px;
+
+}
+
+.socialmedia img:hover {
+  background: #fff;
+
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding-top: 18px;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+/*navigasyon sonu*/
+
+/*hero baslangic*/
+
+.hero-container {
+  display: flex;
+  padding: 30px;
+}
+
+
+.hero-content-area {
+  display: block;
+  padding-left: 35px;
+
+}
+
+.hero-content-area h3 {
+  font-size: 30px;
+}
+
+.arda {
+  background: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.hero-content {
+  font-size: 18px;
+  margin-bottom: 50px;
+
+}
+
+.hero-content a {
+  text-decoration: none;
+  background: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contactBtn {
+  padding: 15px 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  transition: background-color 0.3s, color 0.3s;
+  background: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*yetenekler*/
+.ability-area {
+  border-top: 2px solid rgb(68, 199, 181);
+}
+
+.ability-area h3 {
+  font-size: 32px;
+  margin-left: 30px;
+}
+
+.yetenekler {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  margin-bottom: 70px;
+
+
+}
+
+.yetenek-item {
+  margin-inline: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.yetenek-item:hover {
+  transform: scale(1.2);
+}
+
+/*yetenekler sonu*/
+
+/*projeler*/
+
+.projects {
+  padding: 2rem;
+  border-top: 2px solid rgb(68, 199, 181);
+
+
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background: rgb(68, 199, 181);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 1px solid rgb(68, 199, 181);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.projects h2 {
+  font-size: 32px;
+
+}
+
+.project-card h3 {
+  margin-top: 1rem;
+}
+
+.project-card p {
+  color: #555;
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/*projeler sonu*/
+/*footer baslangic*/
+
+.footerContactBtn {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  transition: background-color 0.3s, color 0.3s;
+  background: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  align-content: center;
+}
+
+/*footer sonu*/
+
+
+@media (width <=768px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-container img {
+    margin: 0 auto;
+  }
+
+
+  .contactBtn {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .yetenekler {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    text-align: center;
+
+
+  }
+}
