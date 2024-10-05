@@ -11,12 +11,6 @@ export default function Nav() {
     <>
       <div className="navigator">
         <h4><Link href="/">Arda Toraman</Link></h4>
-        {/* <ul className="menu">
-          <li><Link href="/">Anasayfa</Link></li>
-          <li><Link href="/hakkimda">Hakkımda</Link></li>
-          <li><Link href="/projelerim">Projelerim</Link></li>
-          <li><Link href="/iletisim">İletişim</Link></li>
-        </ul> */}
         <ul className="socialmedia">
           <li>
             <a href="https://www.linkedin.com/in/arda-toraman-436297300/?trk=people-guest_people_search-card" target="_blank" >

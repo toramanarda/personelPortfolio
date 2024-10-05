@@ -11,12 +11,6 @@ export default function Footer() {
     <>
       <div className="navigator">
         <h4><Link href="/">Arda Toraman</Link></h4>
-        {/* <ul className="menu">
-          <li><Link href="/">Anasayfa</Link></li>
-          <li><Link href="/hakkimda">Hakkımda</Link></li>
-          <li><Link href="/projelerim">Projelerim</Link></li>
-          <li><Link href="/iletisim">İletişim</Link></li>
-        </ul> */}
         <a className="footerContactBtn" href="mailto:toramanarda245@gmail.com">Bana Ulaşın</a>
 
 
